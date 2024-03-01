@@ -1,3 +1,4 @@
-let text = 5;
-text = text.toString();
-document.getElementById("demo").innerHTML = text.padEnd(4,"x");
+let x = "hello World!";
+x =x.repeat(3);
+
+document.getElementById("demo").innerHTML = x;
