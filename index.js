@@ -1,2 +1,3 @@
-let text = "hello word";
-document.getElementById("demo").innerHTML = text.charCodeAt(0);
+const x = "w3School";
+let letter =x.at(2);
+document.getElementById("demo").innerHTML = letter;
