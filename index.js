@@ -1,3 +1,3 @@
-const x = "w3School";
-let letter =x.at(2);
-document.getElementById("demo").innerHTML = letter;
+const text = "Apple, Banana, orange";
+let part =text.slice(7,13);
+document.getElementById("demo").innerHTML = part;
