@@ -1,3 +1,3 @@
-const text = "Apple, Banana, orange";
-let part =text.slice(7,13);
+const text = "LABU, KOMOLA,APPLE";
+let part =text.slice(6,12);
 document.getElementById("demo").innerHTML = part;
