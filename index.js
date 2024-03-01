@@ -1,3 +1,3 @@
-let x = "5";
-x =x.padEnd(5,"0");
-document.getElementById("demo").innerHTML = x;
+let text = 5;
+text = text.toString();
+document.getElementById("demo").innerHTML = text.padEnd(4,"x");
